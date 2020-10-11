@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Previous Work</title>
+    <meta name="author" content="Luke Gidley">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+
+    <div class = "header">
+        <img src = "./images/workBackground.jpg" alt = "mazeBackground">
+    
+
+        <nav>
+            <ul id="menu">
+                <li><a href ="index.html" accesskey="s">Home</a></li>
+                <li><a href ="about.html" accesskey="e">About Me</a></li>
+                <li><a href ="charity.html" accesskey="e">Charity Work</a></li>
+                <li><a href ="work.html" accesskey="r" class = "current">Previous Work</a></li>
+                <li><a href ="contact.html" accesskey="t">Contact Me</a></li>
+
+            </ul>
+
+
+        </nav>
+
+        <div id = "topText">
+            <h2>Previous Work</h2>
+            <br>
+            <p>On this page you can find links to my previous pieces of work. This includes my A level project which was a randomly generated maze, with a chaser enemy using an A-star algorithm to hunt you down.
+                You will also be able to find a copy of my CV which has additional contact information on and finally there is a copy on a LSEPI essay I wrote about the issues surrounding an AR mapping system.
+            </p>
+            <br>
+        </div>
+
+
+
+    </div>
+
+    <main id = "homePage">
+            <div id = "mainText"> 
+    
+                <div class = "overlay">      
+                        <img src = "./images/project.jpg" alt = "maze" class = "top">
+                        <div class = "textOverlay">    
+                            <div class = "overlayText">Part of the map, deeper orange is the chaser while yellow is the player.</div>
+                        </div>
+                </div>
+    
+    
+                <h3>A level project</h3>
+                <br>
+                <p>In my A level project I decided to create a randomly generated maze, using a 2D array with each entry representing either a wall, door, or free space. This allowed me to apply a path-finding algorithm
+                    to it. I chose to use A-star as unlike Dijkstra's it can use heuristics to run much quicker, and allows for some variance in how the enemy behaves, as it may not always take the exact best route to you
+                    but still gets to you quickly. The program is written in python and uses the pygame library.
+                 </p>
+                <br>
+            </div>
+
+            <div id = "mainText">
+                
+
+                <div class = "player">
+                    <h3>Here is a video of the project in action</h3>
+                    <video class="center" width="700" height="500" controls>
+                        <source src="./videos/movie.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                
+
+                    
+                </div>
+            </div>
+
+
+            <div id = "mainText"> 
+    
+                <h3>Download links</h3>
+                <br>
+                <p>Here are the download links for the CV and LSEPI essay.<br><br>
+                    <a href = "./files/LSEPI.pdf" download="Luke Gidley LSEPI Essay">LSEPI Essay</a><br><br>
+                    <a href = "./files/CV.pdf" download="Luke Gidley CV">CV</a>
+                 </p>
+                <br>
+            </div>
+
+    </main>
+
+
+</body>
+
+
+
+<div class = footer>
+    <p>© Copyright Luke Gidley 2020</p>
+</div>
+</html>
